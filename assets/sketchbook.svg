@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title">
+  <title id="title">Sketchbook page: a one-line self-portrait drawing itself, next to a handwritten list of things I do off the screen.</title>
+  <style>
+    .hand { font-family: Caveat, "Segoe Print", "Bradley Hand", "Comic Sans MS", cursive; }
+    .ink  { fill: none; stroke: #2B2622; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round;
+            stroke-dasharray: 1; stroke-dashoffset: 0; animation: d0 12s ease-in-out infinite; }
+    .d1 { animation-name: d1; } .d2 { animation-name: d2; } .d3 { animation-name: d3; }
+    .d4 { animation-name: d4; } .d5 { animation-name: d5; }
+    /* cycle starts fully drawn, fades out, then re-draws stroke by stroke */
+    @keyframes d0 { 0%, 45% { stroke-dashoffset: 0; opacity: 1; } 52% { stroke-dashoffset: 0; opacity: 0; } 53% { stroke-dashoffset: 1; opacity: 0; } 54% { stroke-dashoffset: 1; opacity: 1; } 76%, 100% { stroke-dashoffset: 0; opacity: 1; } }
+    @keyframes d1 { 0%, 45% { stroke-dashoffset: 0; opacity: 1; } 52% { stroke-dashoffset: 0; opacity: 0; } 53%, 57% { stroke-dashoffset: 1; opacity: 0; } 58% { stroke-dashoffset: 1; opacity: 1; } 80%, 100% { stroke-dashoffset: 0; opacity: 1; } }
+    @keyframes d2 { 0%, 45% { stroke-dashoffset: 0; opacity: 1; } 52% { stroke-dashoffset: 0; opacity: 0; } 53%, 61% { stroke-dashoffset: 1; opacity: 0; } 62% { stroke-dashoffset: 1; opacity: 1; } 82%, 100% { stroke-dashoffset: 0; opacity: 1; } }
+    @keyframes d3 { 0%, 45% { stroke-dashoffset: 0; opacity: 1; } 52% { stroke-dashoffset: 0; opacity: 0; } 53%, 64% { stroke-dashoffset: 1; opacity: 0; } 65% { stroke-dashoffset: 1; opacity: 1; } 85%, 100% { stroke-dashoffset: 0; opacity: 1; } }
+    @keyframes d4 { 0%, 45% { stroke-dashoffset: 0; opacity: 1; } 52% { stroke-dashoffset: 0; opacity: 0; } 53%, 67% { stroke-dashoffset: 1; opacity: 0; } 68% { stroke-dashoffset: 1; opacity: 1; } 88%, 100% { stroke-dashoffset: 0; opacity: 1; } }
+    @keyframes d5 { 0%, 45% { stroke-dashoffset: 0; opacity: 1; } 52% { stroke-dashoffset: 0; opacity: 0; } 53%, 71% { stroke-dashoffset: 1; opacity: 0; } 72% { stroke-dashoffset: 1; opacity: 1; } 92%, 100% { stroke-dashoffset: 0; opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; } }
+  </style>
+
+  <rect width="1200" height="340" rx="20" fill="#F4EFE6"/>
+  <line x1="600" y1="34" x2="600" y2="318" stroke="#E2DACB" stroke-dasharray="4 6"/>
+
+  <!-- spiral binding -->
+  <g fill="none" stroke="#8A8273" stroke-width="2">
+    <ellipse cx="60" cy="16" rx="5" ry="10"/><ellipse cx="110" cy="16" rx="5" ry="10"/><ellipse cx="160" cy="16" rx="5" ry="10"/>
+    <ellipse cx="210" cy="16" rx="5" ry="10"/><ellipse cx="260" cy="16" rx="5" ry="10"/><ellipse cx="310" cy="16" rx="5" ry="10"/>
+    <ellipse cx="360" cy="16" rx="5" ry="10"/><ellipse cx="410" cy="16" rx="5" ry="10"/><ellipse cx="460" cy="16" rx="5" ry="10"/>
+    <ellipse cx="510" cy="16" rx="5" ry="10"/><ellipse cx="560" cy="16" rx="5" ry="10"/><ellipse cx="640" cy="16" rx="5" ry="10"/>
+    <ellipse cx="690" cy="16" rx="5" ry="10"/><ellipse cx="740" cy="16" rx="5" ry="10"/><ellipse cx="790" cy="16" rx="5" ry="10"/>
+    <ellipse cx="840" cy="16" rx="5" ry="10"/><ellipse cx="890" cy="16" rx="5" ry="10"/><ellipse cx="940" cy="16" rx="5" ry="10"/>
+    <ellipse cx="990" cy="16" rx="5" ry="10"/><ellipse cx="1040" cy="16" rx="5" ry="10"/><ellipse cx="1090" cy="16" rx="5" ry="10"/>
+    <ellipse cx="1140" cy="16" rx="5" ry="10"/>
+  </g>
+
+  <!-- one-line portrait -->
+  <g transform="translate(120 22)">
+    <path class="ink" pathLength="1" d="M120 250 C112 210 100 180 98 140 C95 80 140 40 190 42 C225 44 245 75 244 105 C244 118 246 128 252 140 L268 160 C262 166 254 168 248 170 C254 176 256 180 252 184 L246 189 C252 193 254 197 250 202 C248 214 242 222 230 226 C215 230 200 228 195 230 L200 268"/>
+    <path class="ink d1" pathLength="1" d="M108 104 C130 58 180 44 228 68 M104 128 C124 82 168 66 214 84 M150 50 C170 40 200 40 222 52"/>
+    <path class="ink d2" pathLength="1" d="M214 100 C222 94 234 94 242 98 M218 114 C224 109 232 109 237 114 M221 117 C226 120 232 120 236 117"/>
+    <path class="ink d3" pathLength="1" d="M152 122 C136 116 132 150 150 160 C160 152 160 130 152 122 M146 132 C150 138 150 146 146 150"/>
+    <path class="ink d4" pathLength="1" d="M120 250 C90 262 60 272 36 304 M200 268 C240 276 284 286 306 306"/>
+    <path class="ink d5" pathLength="1" d="M330 48 l6 16 l17 1 l-13 11 l5 17 l-15 -10 l-14 10 l5 -17 l-13 -11 l17 -1 z"/>
+  </g>
+  <text x="404" y="196" class="hand" font-size="22" fill="#6B6255" transform="rotate(-4 404 196)">← me, probably</text>
+  <text x="40" y="62" class="hand" font-size="17" fill="#8A8273">fig. 1 · one-line self portrait</text>
+
+  <!-- notes -->
+  <text x="660" y="84" class="hand" font-size="36" font-weight="700" fill="#2B2622">off the canvas</text>
+  <path d="M662 98 C720 92 780 104 840 96 S 900 92 912 98" fill="none" stroke="#A259FF" stroke-width="3" stroke-linecap="round"/>
+  <g class="hand" font-size="22" fill="#3A342C">
+    <text x="664" y="140"><tspan fill="#A259FF">✎</tspan>  graphite portraits &amp; charcoal faces</text>
+    <text x="664" y="178"><tspan fill="#1ABCFE">✎</tspan>  sketching people in cafés (sorry, strangers)</text>
+    <text x="664" y="216"><tspan fill="#0ACF83">✎</tspan>  collecting fonts like they're Pokémon</text>
+    <text x="664" y="254"><tspan fill="#FF7262">✎</tspan>  redesigning apps nobody asked me to</text>
+    <text x="664" y="292"><tspan fill="#F24E1E">✎</tspan>  ex-NCC cadet: Army &amp; Air Force wings</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="484" viewBox="0 0 900 484" role="img" aria-labelledby="title">
+  <title id="title">Meme. No: blaming the backend for a 1px bug. Yes: being the designer, frontend and backend dev, so every bug is a feature.</title>
+  <style>
+    .sans { font-family: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: "JetBrains Mono", "SF Mono", Consolas, "Liberation Mono", Menlo, monospace; }
+    .emoji { font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
+    .nope { animation: shake 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .yep  { animation: nod 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes shake { 0%, 60%, 100% { transform: rotate(0); } 70% { transform: rotate(-8deg); } 80% { transform: rotate(8deg); } 90% { transform: rotate(-4deg); } }
+    @keyframes nod   { 0%, 60%, 100% { transform: translateY(0); } 72% { transform: translateY(-6px); } 84% { transform: translateY(3px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="899" height="483" rx="20" fill="#0B0D12" stroke="#1E2330"/>
+
+  <rect x="16" y="12" width="250" height="30" rx="8" fill="#151925"/>
+  <text x="32" y="32" class="mono" font-size="13" fill="#C9D1E3">meme_final_FINAL_v3.png</text>
+  <text x="884" y="32" class="mono" font-size="12" fill="#6B7386" text-anchor="end">relatable · 100%</text>
+
+  <!-- row 1 -->
+  <rect x="16" y="56" width="280" height="200" rx="14" fill="#2A1418"/>
+  <text x="156" y="194" class="emoji nope" font-size="108" text-anchor="middle">🙅</text>
+  <rect x="308" y="56" width="576" height="200" rx="14" fill="#11141C"/>
+  <text x="340" y="104" class="mono" font-size="12" letter-spacing="1.2" fill="#FF7262">✕  FRONTEND-ONLY ME</text>
+  <text x="340" y="152" class="sans" font-size="28" font-weight="600" fill="#F5F7FB">“It's a backend issue.”</text>
+  <text x="340" y="190" class="sans" font-size="20" fill="#8B93A7">— me, blaming the API team for a 1px bug</text>
+
+  <!-- row 2 -->
+  <rect x="16" y="268" width="280" height="200" rx="14" fill="#0E2A20"/>
+  <text x="156" y="406" class="emoji yep" font-size="108" text-anchor="middle">😎</text>
+  <rect x="308" y="268" width="576" height="200" rx="14" fill="#11141C"/>
+  <text x="340" y="312" class="mono" font-size="12" letter-spacing="1.2" fill="#0ACF83">✓  FULL STACK ME</text>
+  <text x="340" y="354" class="sans" font-size="28" font-weight="600" fill="#F5F7FB">Being the designer, frontend</text>
+  <text x="340" y="392" class="sans" font-size="28" font-weight="600" fill="#F5F7FB">AND backend dev, so every</text>
+  <text x="340" y="430" class="sans" font-size="28" font-weight="600" fill="#F5F7FB">bug is a <tspan fill="url(#g)">“feature”</tspan></text>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A259FF"/>
+      <stop offset="1" stop-color="#1ABCFE"/>
+    </linearGradient>
+  </defs>
+</svg>
