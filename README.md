@@ -11,11 +11,9 @@
 </p>
 
 <p align="center">
-  <!-- TODO: replace with your portfolio URL -->
-  <a href="https://your-portfolio-link.com"><img src="https://img.shields.io/badge/Portfolio-A259FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://shubham-kumar-dev.vercel.app"><img src="https://img.shields.io/badge/Portfolio-A259FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/shubh-kumar-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:kumarshubham121998@gmail.com"><img src="https://img.shields.io/badge/Say_hi-0ACF83?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=shuboycode&label=visitors&color=FF7262&style=for-the-badge" alt="Profile views" />
 </p>
 
 <br />
@@ -276,6 +274,10 @@ A conversion-focused site in Next.js, plus a WordPress variant, tuned for perfor
 
 <p align="center">
   <sub>🏆 “Relentless Learner · Frontend Force” &nbsp;·&nbsp; Spot Award for Outstanding Delivery</sub>
+</p>
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=shuboycode.shuboycode&left_text=visitors&left_color=%231E2330&right_color=%23A259FF" alt="Profile visitors" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A259FF,50:1ABCFE,100:0ACF83&height=110&section=footer" width="100%" alt="" />
